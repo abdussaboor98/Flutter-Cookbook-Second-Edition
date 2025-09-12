@@ -1,3 +1,39 @@
+# Update status
+
+| 📘 Chapter      | 🔼 Upgrade Status | 🧩 Code Fix Status | 📝 Notes |
+|-------------    |-------------------|--------------------|---------|
+| Chapter_01      | 🔄 In Progress    | ⏳ TBD            |         |
+| Chapter_02      | 🔄 In Progress    | ⏳ TBD            |         |
+| Chapter_03      | 🔄 In Progress    | ⏳ TBD            |         |
+| Chapter_04      | ✅ Completed      | 🚫 Not Required   |         |
+| Chapter_05      | ✅ Completed      | 🚫 Not Required   |         |
+| Chapter_06      | ✅ Completed      | 🛠️ Fixed          |         |
+| Chapter_07      | ✅ Completed      | 🛠️ Fixed          |         |
+| Chapter_08      | ❌ Not Started    | ⏳ TBD            |         |
+| Chapter_09      | ❌ Not Started    | ⏳ TBD            |         |
+| Chapter_10      | ❌ Not Started    | ⏳ TBD            |         |
+| Chapter_11      | ❌ Not Started    | ⏳ TBD            |         |
+| Chapter_12      | ❌ Not Started    | ⏳ TBD            |         |
+| Chapter_13      | ❌ Not Started    | ⏳ TBD            |         |
+| Chapter_14      | ❌ Not Started    | ⏳ TBD            |         |
+| Chapter_15      | ❌ Not Started    | ⏳ TBD            |         |
+
+
+<!--
+❌ Not Started 
+🔄 In Progress
+✅ Completed
+
+🛠️ Fixed
+⏳ TBD
+🚫 Not Required
+ -->
+
+---
+<br>
+<br>
+<br>
+
 # Flutter-Cookbook-Second-Edition
 This is the code repository for [Flutter-Cookbook-Second-Edition](https://www.amazon.com/Flutter-Cookbook-real-world-cross-platform-applications/dp/1803245433), published by Packt.
 
