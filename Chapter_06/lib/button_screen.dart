@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class ButtonScreen extends StatelessWidget {
+  const ButtonScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -19,7 +21,8 @@ class ButtonScreen extends StatelessWidget {
                 onPressed: () {},
                 child: Text('Custom ElevatedButton'),
                 style: ElevatedButton.styleFrom(
-                  primary: Colors.purple,
+                  backgroundColor: Colors.purple,
+                  foregroundColor: Colors.white, // AS: added to just to beautify
                   textStyle: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                   shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(10)),
@@ -36,7 +39,7 @@ class ButtonScreen extends StatelessWidget {
                 onPressed: () {},
                 child: Text('Disabled ElevatedButton'),
                 style: ElevatedButton.styleFrom(
-                  primary: Colors.grey,
+                  backgroundColor: Colors.grey,
                   textStyle: TextStyle(fontSize: 18),
                 ),
               ),
@@ -50,8 +53,7 @@ class ButtonScreen extends StatelessWidget {
                 onPressed: () {},
                 child: Text('Custom TextButton'),
                 style: TextButton.styleFrom(
-                  primary: Colors.red,
-                  textStyle: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                  foregroundColor: Colors.red, textStyle: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                   shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(10)),
                 ),
@@ -67,8 +69,7 @@ class ButtonScreen extends StatelessWidget {
                 onPressed: null,
                 child: Text('Disabled TextButton'),
                 style: TextButton.styleFrom(
-                  primary: Colors.grey,
-                  textStyle: TextStyle(fontSize: 18),
+                  foregroundColor: Colors.grey, textStyle: TextStyle(fontSize: 18),
                 ),
               ),
               SizedBox(height: 20),

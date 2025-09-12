@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'login_screen.dart';
+import 'button_screen.dart';
 
 void main() => runApp(const StopWatchApp());
 
@@ -10,6 +11,7 @@ class StopWatchApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       home: LoginScreen(),
+      // home: ButtonScreen(),
     );
   }
 }

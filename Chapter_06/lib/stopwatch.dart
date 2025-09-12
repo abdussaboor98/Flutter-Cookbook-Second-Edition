@@ -82,8 +82,8 @@ class _StopWatchState extends State<StopWatch> {
       children: [
         ElevatedButton(
           style: ButtonStyle(
-            backgroundColor: MaterialStateProperty.all<Color>(Colors.green),
-            foregroundColor: MaterialStateProperty.all<Color>(Colors.white),
+            backgroundColor: WidgetStateProperty.all<Color>(Colors.green),
+            foregroundColor: WidgetStateProperty.all<Color>(Colors.white),
           ),
           onPressed: isTicking ? null : _startTimer,
           child: const Text('Start'),
@@ -91,7 +91,7 @@ class _StopWatchState extends State<StopWatch> {
         const SizedBox(width: 20),
         ElevatedButton(
           style: ButtonStyle(
-            backgroundColor: MaterialStateProperty.all(Colors.yellow),
+            backgroundColor: WidgetStateProperty.all(Colors.yellow),
           ),
           onPressed: isTicking ? _lap : null,
           child: const Text('Lap'),
@@ -100,8 +100,8 @@ class _StopWatchState extends State<StopWatch> {
         Builder(builder: (context) {
           return TextButton(
             style: ButtonStyle(
-              backgroundColor: MaterialStateProperty.all<Color>(Colors.red),
-              foregroundColor: MaterialStateProperty.all<Color>(Colors.white),
+              backgroundColor: WidgetStateProperty.all<Color>(Colors.red),
+              foregroundColor: WidgetStateProperty.all<Color>(Colors.white),
             ),
             onPressed: isTicking ? () => _stopTimer(context) : null,
             child: const Text('Stop'),
@@ -157,7 +157,7 @@ class _StopWatchState extends State<StopWatch> {
       child: Padding(
           padding: const EdgeInsets.symmetric(vertical: 30.0),
           child: Column(mainAxisSize: MainAxisSize.min, children: [
-            Text('Run Finished!', style: textTheme.headline6),
+            Text('Run Finished!', style: textTheme.titleLarge),
             Text('Total Run Time is ${_secondsText(totalRuntime)}.')
           ])),
     ));
