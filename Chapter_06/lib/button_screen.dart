@@ -21,7 +21,7 @@ class ButtonScreen extends StatelessWidget {
                 onPressed: () {},
                 child: Text('Custom ElevatedButton'),
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.purple,
+                  backgroundColor: Colors.purple, // primary is changed to backgroundColor
                   foregroundColor: Colors.white, // AS: added to just to beautify
                   textStyle: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                   shape: RoundedRectangleBorder(
@@ -39,7 +39,7 @@ class ButtonScreen extends StatelessWidget {
                 onPressed: () {},
                 child: Text('Disabled ElevatedButton'),
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.grey,
+                  backgroundColor: Colors.grey,// primary is changed to backgroundColor
                   textStyle: TextStyle(fontSize: 18),
                 ),
               ),
@@ -53,7 +53,7 @@ class ButtonScreen extends StatelessWidget {
                 onPressed: () {},
                 child: Text('Custom TextButton'),
                 style: TextButton.styleFrom(
-                  foregroundColor: Colors.red, textStyle: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                  foregroundColor: Colors.red, textStyle: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),// primary is changed to foregroundColor
                   shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(10)),
                 ),
@@ -69,7 +69,7 @@ class ButtonScreen extends StatelessWidget {
                 onPressed: null,
                 child: Text('Disabled TextButton'),
                 style: TextButton.styleFrom(
-                  foregroundColor: Colors.grey, textStyle: TextStyle(fontSize: 18),
+                  foregroundColor: Colors.grey, textStyle: TextStyle(fontSize: 18),// primary is changed to foregroundColor
                 ),
               ),
               SizedBox(height: 20),
