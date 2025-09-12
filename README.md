@@ -2,7 +2,6 @@
 
 | 📘 Chapter      | 🔼 Upgrade Status | 🧩 Code Fix Status | 📝 Notes |
 |-------------    |-------------------|--------------------|---------|
-| Chapter_01      | 🔄 In Progress    | ⏳ TBD            |         |
 | Chapter_02      | 🔄 In Progress    | ⏳ TBD            |         |
 | Chapter_03      | 🔄 In Progress    | ⏳ TBD            |         |
 | Chapter_04      | ✅ Completed      | 🚫 Not Required   |         |
