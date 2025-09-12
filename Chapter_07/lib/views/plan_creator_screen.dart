@@ -64,7 +64,7 @@ class _PlanCreatorScreenState extends State<PlanCreatorScreen> {
       return Column(mainAxisAlignment: MainAxisAlignment.center, children: [
         const Icon(Icons.note, size: 100, color: Colors.grey),
         Text('You do not have any plans yet.',
-            style: Theme.of(context).textTheme.headline5)
+            style: Theme.of(context).textTheme.headlineSmall)
       ]);
     }
 
