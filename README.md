@@ -7,9 +7,9 @@
 | Chapter_04      | ✅ Completed      | 🚫 Not Required   |         |
 | Chapter_05      | ✅ Completed      | 🚫 Not Required   |         |
 | Chapter_06      | ✅ Completed      | 🛠️ Fixed          |         |
-| Chapter_07      | ✅ Completed      | 🛠️ Fixed          |         |
+| Chapter_07      | ✅ Completed      | 🛠️ Fixed          | Probably needs more code changes as per [this issue](https://github.com/PacktPublishing/Flutter-Cookbook-Second-Edition/issues/13)        |
 | Chapter_08      | ✅ Completed      | 🚫 Not Required   |         |
-| Chapter_09      | ❌ Not Started    | ⏳ TBD            |         |
+| Chapter_09      | ✅ Completed      | 🚫 Not Required   |         |
 | Chapter_10      | ❌ Not Started    | ⏳ TBD            |         |
 | Chapter_11      | ❌ Not Started    | ⏳ TBD            |         |
 | Chapter_12      | ❌ Not Started    | ⏳ TBD            |         |
