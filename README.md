@@ -3,12 +3,12 @@
 | 📘 Chapter      | 🔼 Upgrade Status | 🧩 Code Fix Status | 📝 Notes |
 |-------------    |-------------------|--------------------|---------|
 | Chapter_02      | ✅ Completed      | 🚫 Not Required   |         |
-| Chapter_03      | 🔄 In Progress    | ⏳ TBD            |         |
+| Chapter_03      | 🚫 Not Required   | 🚫 Not Required   | This is just Dart practice        |
 | Chapter_04      | ✅ Completed      | 🚫 Not Required   |         |
 | Chapter_05      | ✅ Completed      | 🚫 Not Required   |         |
 | Chapter_06      | ✅ Completed      | 🛠️ Fixed          |         |
 | Chapter_07      | ✅ Completed      | 🛠️ Fixed          |         |
-| Chapter_08      | ❌ Not Started    | ⏳ TBD            |         |
+| Chapter_08      | ✅ Completed      | 🚫 Not Required   |         |
 | Chapter_09      | ❌ Not Started    | ⏳ TBD            |         |
 | Chapter_10      | ❌ Not Started    | ⏳ TBD            |         |
 | Chapter_11      | ❌ Not Started    | ⏳ TBD            |         |
