@@ -1,4 +1,5 @@
 # Update status
+Supports Dart version 3.9.0 and above (hopefully, as I have only tested on 3.9.0)
 
 | 📘 Chapter      | 🔼 Upgrade Status | 🧩 Code Fix Status | 📝 Notes |
 |-------------    |-------------------|--------------------|---------|
